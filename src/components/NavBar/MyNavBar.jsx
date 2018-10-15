@@ -7,10 +7,12 @@ class MyNavBar extends Component {
     return (
       <nav
         className="navbar navbar-expand-lg navbar-light"
-        style={{ backgroundColor: "#660033" }}
+        style={{ backgroundColor: "rgb(58, 41, 48)" }}
       >
         <li className="nav-link navbar-brand">
-          <Link to="/">Home</Link>
+          <Link className="link" to="/">
+            Home
+          </Link>
         </li>
         <button
           className="navbar-toggler"
@@ -27,11 +29,15 @@ class MyNavBar extends Component {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-link navbar-brand">
-              <Link to="/Bio">Bio</Link>
+              <Link className="link" to="/Bio">
+                Bio
+              </Link>
             </li>
             <li className="nav-item">
               <li className="nav-link navbar-brand">
-                <Link to="/Projects">Projects</Link>
+                <Link className="link" to="/Projects">
+                  Projects
+                </Link>
               </li>
             </li>
             <li className="nav-item dropdown">
@@ -68,10 +74,7 @@ class MyNavBar extends Component {
               placeholder="Search"
               aria-label="Search"
             />
-            <button
-              className="btn btn-outline-success my-2 my-sm-0"
-              type="submit"
-            >
+            <button className="btn btn-outline-info my-2 my-sm-0" type="submit">
               Search
             </button>
           </form>

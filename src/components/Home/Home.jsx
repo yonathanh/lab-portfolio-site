@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./Home.css";
 
 class Home extends Component {
   state = {};
@@ -13,6 +12,7 @@ class Home extends Component {
             src="https://www.3d-wallpapers.info/wp-content/uploads/Dreadful-Dragon-3d-HD-Wallpaper.jpg"
             alt="Background"
           />
+
           <img
             align="left"
             class="fb-image-profile thumbnail"
@@ -21,17 +21,9 @@ class Home extends Component {
           />
           <div class="fb-profile-text">
             <h1>Jonathan Harris</h1>
-            <p>Best Web Developer in The world</p>
+            <p>Best Web Developer</p>
           </div>
         </div>
-
-        <aside class="profile-card">
-          <img
-            className="img-responsive img-thumbnail"
-            src="https://qph.fs.quoracdn.net/main-qimg-dc28fe9cd60445b0a40c82173618cbeb-c"
-            alt="bounce"
-          />
-        </aside>
       </div>
     );
   }
