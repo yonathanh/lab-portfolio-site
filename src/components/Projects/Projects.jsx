@@ -36,6 +36,12 @@ class Projects extends Component {
                 src="https://qph.fs.quoracdn.net/main-qimg-dc28fe9cd60445b0a40c82173618cbeb-c"
                 alt="bounce"
               />
+              <a
+                href="https://yonathanh.github.io/Grenade-Launcher-game/starter_code/index.html"
+                target="_blank"
+              >
+                Click
+              </a>
             </div>
           </div>
           <div className="col-md-4">
@@ -45,6 +51,9 @@ class Projects extends Component {
                 src="https://qph.fs.quoracdn.net/main-qimg-dc28fe9cd60445b0a40c82173618cbeb-c"
                 alt="bounce"
               />
+              <a href="http://www.iliveinamovie.com" target="_blank">
+                Click
+              </a>
             </div>
           </div>
           <div className="col-md-4">
@@ -54,6 +63,12 @@ class Projects extends Component {
                 src="https://qph.fs.quoracdn.net/main-qimg-dc28fe9cd60445b0a40c82173618cbeb-c"
                 alt="bounce"
               />
+              <a
+                href="http://estate-rental-manager.herokuapp.com"
+                target="_blank"
+              >
+                Click
+              </a>
             </div>
           </div>
         </div>
