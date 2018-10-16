@@ -9,7 +9,7 @@ class Home extends Component {
           <img
             align="left"
             class="fb-image-lg"
-            src="https://www.3d-wallpapers.info/wp-content/uploads/Dreadful-Dragon-3d-HD-Wallpaper.jpg"
+            src="/imgs/code-background.jpg"
             alt="Background"
           />
 
