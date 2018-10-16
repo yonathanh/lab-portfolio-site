@@ -33,7 +33,7 @@ class Projects extends Component {
             <div className="profile-card">
               <img
                 className="img-responsive img-thumbnail"
-                src="https://qph.fs.quoracdn.net/main-qimg-dc28fe9cd60445b0a40c82173618cbeb-c"
+                src="/imgs/perfect-shot.png"
                 alt="bounce"
               />
               <a
@@ -48,7 +48,7 @@ class Projects extends Component {
             <div className="profile-card">
               <img
                 className="img-responsive img-thumbnail"
-                src="https://qph.fs.quoracdn.net/main-qimg-dc28fe9cd60445b0a40c82173618cbeb-c"
+                src="/imgs/ilivinamovie.png"
                 alt="bounce"
               />
               <a href="http://www.iliveinamovie.com" target="_blank">
@@ -60,7 +60,7 @@ class Projects extends Component {
             <div className="profile-card">
               <img
                 className="img-responsive img-thumbnail"
-                src="https://qph.fs.quoracdn.net/main-qimg-dc28fe9cd60445b0a40c82173618cbeb-c"
+                src="/imgs/estate-manager.png"
                 alt="bounce"
               />
               <a
