@@ -7,23 +7,15 @@ class Projects extends Component {
       <div className="container">
         <div className="row h-50">
           <div className="col-md-4">
-            <img
-              className="dragon"
-              src="/imgs/dragon-wallpapers.jpg"
-              alt="dragon"
-            />
+            <img className="dragon" src="/imgs/perfect-shot.png" alt="dragon" />
+          </div>
+          <div className="col-md-4">
+            <img className="dragon" src="/imgs/ilivinamovie.png" alt="dragon" />
           </div>
           <div className="col-md-4">
             <img
               className="dragon"
-              src="/imgs/dragon-wallpapers.jpg"
-              alt="dragon"
-            />
-          </div>
-          <div className="col-md-4">
-            <img
-              className="dragon"
-              src="/imgs/dragon-wallpapers.jpg"
+              src="/imgs/estate-manager.png"
               alt="dragon"
             />
           </div>

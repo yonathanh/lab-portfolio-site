@@ -4,7 +4,7 @@
   /* background-image: url(/imgs/glass.jpeg);
   background-repeat: no-repeat;
   background-size: cover; */
-  background-color: #627987;
+  background-color: #378db4;
   height: 100vh;
 }
 
@@ -173,6 +173,7 @@ h1 {
 /* =========================== dragon img */
 
 .dragon {
-  height: 33vh;
+  height: 22vh;
   margin: 20px;
+  padding: 20px;
 }
