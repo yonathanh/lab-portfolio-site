@@ -28,18 +28,6 @@ class MyNavBar extends Component {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
-            <li className="nav-link navbar-brand">
-              <Link className="link" to="/Bio">
-                Bio
-              </Link>
-            </li>
-            <li className="nav-item">
-              <li className="nav-link navbar-brand">
-                <Link className="link" to="/Projects">
-                  Projects
-                </Link>
-              </li>
-            </li>
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
@@ -67,17 +55,18 @@ class MyNavBar extends Component {
             </li>
             <li className="nav-item" />
           </ul>
-          <form className="form-inline my-2 my-lg-0">
-            <input
-              className="form-control mr-sm-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button className="btn btn-outline-info my-2 my-sm-0" type="submit">
-              Search
-            </button>
-          </form>
+
+          <li className="nav-link navbar-brand">
+            <Link className="link" to="/Projects">
+              Projects
+            </Link>
+          </li>
+
+          <li className="nav-link navbar-brand">
+            <Link className="link" to="/Bio">
+              Bio
+            </Link>
+          </li>
         </div>
       </nav>
     );
