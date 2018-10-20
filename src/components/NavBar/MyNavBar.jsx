@@ -63,6 +63,12 @@ class MyNavBar extends Component {
           </li>
 
           <li className="nav-link navbar-brand">
+            <Link className="link" to="/contactInfo">
+              Where to Contact Me
+            </Link>
+          </li>
+
+          <li className="nav-link navbar-brand">
             <Link className="link" to="/Bio">
               About Me
             </Link>
