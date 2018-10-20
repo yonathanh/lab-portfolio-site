@@ -58,13 +58,13 @@ class MyNavBar extends Component {
 
           <li className="nav-link navbar-brand">
             <Link className="link" to="/Projects">
-              Projects
+              My Work
             </Link>
           </li>
 
           <li className="nav-link navbar-brand">
             <Link className="link" to="/Bio">
-              Bio
+              About Me
             </Link>
           </li>
         </div>
