@@ -41,36 +41,64 @@ class MyNavBar extends Component {
                 Dropdown
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="#">
-                  Action
-                </a>
-                <a className="dropdown-item" href="#">
-                  Another action
-                </a>
+                <Link className="dropdown-item" to="/Bio">
+                  About Me
+                </Link>
                 <div className="dropdown-divider" />
-                <a className="dropdown-item" href="#">
-                  Something else here
-                </a>
+                <Link className="dropdown-item" to="/Projects">
+                  My Work
+                </Link>
+                <div className="dropdown-divider" />
+                <Link className="dropdown-item" to="/contactInfo">
+                  How To Reach Me
+                </Link>
               </div>
             </li>
             <li className="nav-item" />
           </ul>
 
           <li className="nav-link navbar-brand">
-            <Link className="link" to="/Projects">
-              My Work
+            <Link className="link" to="/Bio">
+              About Me
             </Link>
           </li>
 
           <li className="nav-link navbar-brand">
             <Link className="link" to="/contactInfo">
-              Where to Contact Me
+              How To Reach Me
             </Link>
           </li>
 
+          <li className="nav-item dropdown nav-link navbar-brand">
+            <a
+              className="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Dropdown
+            </a>
+            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <Link className="dropdown-item" to="/Bio">
+                About Me
+              </Link>
+              <div className="dropdown-divider" />
+              <Link className="dropdown-item" to="/Projects">
+                My Work
+              </Link>
+              <div className="dropdown-divider" />
+              <Link className="dropdown-item" to="/contactInfo">
+                How To Reach Me
+              </Link>
+            </div>
+          </li>
+
           <li className="nav-link navbar-brand">
-            <Link className="link" to="/Bio">
-              About Me
+            <Link className="link" to="/Projects">
+              My Work
             </Link>
           </li>
         </div>
