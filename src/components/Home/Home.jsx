@@ -20,7 +20,14 @@ class Home extends Component {
             alt="Profile image"
           />
           <div class="fb-profile-text">
-            <h1>Jonathan Harris</h1>
+            <div className="main-wrap">
+              <img
+                className="main-gif"
+                src="/imgs/linKing.png"
+                alt="main-gif"
+              />
+              <h1 className="main-header">Jonathan Harris</h1>
+            </div>
             <p>Best Web Developer</p>
           </div>
         </div>

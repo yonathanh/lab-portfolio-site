@@ -6,6 +6,10 @@
   background-size: cover; */
   background-color: #378db4;
   height: 100vh;
+
+  background: url("/imgs/toothless.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .link,
@@ -192,3 +196,42 @@ h1 {
   z-index: 1;
   margin: 0 auto 100px;
 } */
+
+/* //----- gif animation ------- */
+.main-wrap {
+  position: relative;
+}
+
+.main-gif {
+  position: absolute;
+  width: 60px;
+  bottom: 30px;
+  left: 40%;
+  animation: gifWalk 15s linear infinite;
+}
+
+@keyframes gifWalk {
+  0% {
+    transform: translateX(0) scaleX(-1);
+    opacity: 1;
+  }
+  95% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateX(520px) scaleX(-1);
+    opacity: 0;
+  }
+}
+
+@keyframes header {
+  from {
+    color: black;
+    text-shadow: 0 2px 3px green;
+  }
+  to {
+    color: purple;
+    text-shadow: 0 2px 5px red;
+  }
+}
+/* //----- End gif animation ------- */
