@@ -7,7 +7,7 @@
   background-color: #378db4;
   height: 100vh;
 
-  background: url("/imgs/toothless.jpg");
+  background: url("/imgs/Do-Great-Work-Background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -212,14 +212,14 @@ h1 {
 
 @keyframes gifWalk {
   0% {
-    transform: translateX(0) scaleX(-1);
+    transform: translateX(0) scaleX(1);
     opacity: 1;
   }
   95% {
     opacity: 0.8;
   }
   100% {
-    transform: translateX(520px) scaleX(-1);
+    transform: translateX(520px) scaleX(1);
     opacity: 0;
   }
 }
