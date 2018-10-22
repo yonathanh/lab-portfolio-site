@@ -24,42 +24,69 @@ class Projects extends Component {
           <div className="col-md-4">
             <div className="profile-card">
               <img
-                className="img-responsive img-thumbnail"
+                className="img-responsive img"
                 src="/imgs/perfect-shot.png"
                 alt="bounce"
               />
+              <i class="fas fa-eye" />
               <a
                 href="https://yonathanh.github.io/Grenade-Launcher-game/starter_code/index.html"
                 target="_blank"
               >
-                Click
+                Project
+              </a>
+              <br />
+              <i className="fab fa-github" />
+              <a
+                href="https://github.com/yonathanh/Grenade-Launcher-game"
+                target="_blank"
+              >
+                Github
               </a>
             </div>
           </div>
           <div className="col-md-4">
             <div className="profile-card">
               <img
-                className="img-responsive img-thumbnail"
+                className="img-responsive img"
                 src="/imgs/ilivinamovie.png"
                 alt="bounce"
               />
+              <i class="fas fa-eye" />
               <a href="http://www.iliveinamovie.com" target="_blank">
-                Click
+                Project
+              </a>
+              <br />
+              <i className="fab fa-github" />
+              <a
+                href="https://github.com/yonathanh/movies-is-my-life"
+                target="_blank"
+              >
+                Github
               </a>
             </div>
           </div>
           <div className="col-md-4">
             <div className="profile-card">
               <img
-                className="img-responsive img-thumbnail"
+                className="img-responsive img"
                 src="/imgs/estate-manager.png"
                 alt="bounce"
               />
+              <i class="fas fa-eye" />
               <a
                 href="http://estate-rental-manager.herokuapp.com"
                 target="_blank"
               >
-                Click
+                Project
+              </a>
+              <br />
+              <i className="fab fa-github" />
+              <a
+                href="https://github.com/yonathanh/estate-rental-manager"
+                target="_blank"
+              >
+                Github
               </a>
             </div>
           </div>

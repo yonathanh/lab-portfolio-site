@@ -51,7 +51,7 @@
 
 /* ======================= bouncy card =================== */
 .profile-card {
-  background: #520e46;
+  background: #e61414;
   width: 56px;
   height: 56px;
   position: relative;
@@ -60,7 +60,7 @@
   z-index: 2;
   overflow: hidden;
   opacity: 0;
-  margin-top: 70px;
+  margin-top: 200px;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   -webkit-border-radius: 50%;
@@ -70,6 +70,22 @@
     moveDown 1s 0.8s cubic-bezier(0.6, -0.28, 0.735, 0.045) forwards,
     moveUp 1s 1.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards,
     materia 0.5s 2.7s cubic-bezier(0.86, 0, 0.07, 1) forwards;
+}
+
+.img {
+  margin-bottom: 20px;
+  padding: 0rem;
+  background-color: rgb(109, 46, 46);
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
+.fa-github:before,
+.fa-eye:before {
+  padding: 10px;
+  font-size: 30px;
+  /* color: rgb(61, 36, 36); */
 }
 
 @keyframes init {
@@ -99,7 +115,7 @@
 
 @keyframes moveUp {
   0% {
-    background: #610b2c;
+    background: #b9203a;
     top: 100%;
   }
   50% {
@@ -107,21 +123,21 @@
   }
   100% {
     top: 50%;
-    background: #e0e0e0;
+    background: #c92533;
   }
 }
 
 @keyframes materia {
   0% {
-    background: #e0e0e0;
+    background: #cc1e2c;
   }
   50% {
     border-radius: 4px;
   }
   100% {
     width: 340px;
-    height: 280px;
-    background: #ffffff;
+    height: 290px;
+    background: #582525;
     border-radius: 4px;
   }
 }
@@ -206,7 +222,7 @@ h1 {
   position: absolute;
   width: 60px;
   bottom: 30px;
-  left: 40%;
+  left: 43%;
   animation: gifWalk 15s linear infinite;
 }
 
@@ -219,7 +235,7 @@ h1 {
     opacity: 0.8;
   }
   100% {
-    transform: translateX(520px) scaleX(1);
+    transform: translateX(320px) scaleX(1);
     opacity: 0;
   }
 }
