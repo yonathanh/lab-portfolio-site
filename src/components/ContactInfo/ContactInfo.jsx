@@ -7,17 +7,6 @@ class ContactInfo extends Component {
   render() {
     return (
       <div className="main">
-        <video
-          className="video"
-          loop="loop"
-          muted=""
-          autoplay="autoplay"
-          playsinline="playsinline"
-          source
-          src="imgs/Background-Animation.mp4"
-          type="video/mp4"
-        />
-
         <main id="contact">
           <h1 class="lg-heading">
             Contact
