@@ -8,20 +8,21 @@ class ContactInfo extends Component {
     return (
       <div className="main">
         <main id="contact">
-          <h1 class="lg-heading">
+          <h1 className="lg-heading">
             Contact
-            <span class="text-secondary">Me</span>
+            <span className="text-secondary">Me</span>
           </h1>
           <h2 class="sm-heading">This is how you can reach me...</h2>
           <div class="boxes">
             <div>
-              <span class="text-secondary">Email: </span> yochananh@gmail.com
+              <span className="text-secondary">Email: </span>{" "}
+              yochananh@gmail.com
             </div>
             <div>
-              <span class="text-secondary">Phone: </span> (917) 704-6854
+              <span className="text-secondary">Phone: </span> (917) 704-6854
             </div>
             <div>
-              <span class="text-secondary">Address: </span> Miami Fl.
+              <span className="text-secondary">Address: </span> Miami Fl.
             </div>
           </div>
         </main>

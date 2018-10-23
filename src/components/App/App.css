@@ -12,6 +12,20 @@
   background-size: cover;
 }
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 1.8rem !important;
+  font-family: "Righteous", cursive !important;
+  text-transform: uppercase;
+  text-shadow: 0 2px 3px red;
+  letter-spacing: 3px;
+  border-radius: 10px;
+  animation: header 5s ease-in infinite alternate;
+}
+
 .link,
 #navbarDropdown {
   color: #4294b4;
@@ -23,6 +37,16 @@
   color: #82cce9;
   text-decoration: none;
   background-color: transparent;
+}
+
+.text-secondary {
+  font-size: 1.5rem !important;
+  font-family: "Righteous", cursive !important;
+  text-transform: uppercase;
+  text-shadow: 0 2px 3px rgb(59, 143, 38);
+  letter-spacing: 3px;
+  border-radius: 10px;
+  animation: header 5s ease-in infinite alternate;
 }
 
 /* ======================= Header =================== */
@@ -144,20 +168,6 @@
 
 /* ==================== profile img ====================== */
 
-body {
-  font-family: "Open Sans", sans-serif;
-}
-
-h1 {
-  font-size: 1.8rem !important;
-  font-family: "Righteous", cursive !important;
-  text-transform: uppercase;
-  text-shadow: 0 2px 3px red;
-  letter-spacing: 3px;
-  border-radius: 10px;
-  animation: header 5s ease-in infinite alternate;
-}
-
 .fb-profile img.fb-image-lg {
   z-index: 0;
   width: 100%;
@@ -251,3 +261,20 @@ h1 {
   }
 }
 /* //----- End gif animation ------- */
+
+/* //----- ContactInfo page------- */
+
+#contact {
+  margin: 10%;
+  padding: 5%;
+
+  /* position: relative;
+  z-index: 1;
+  margin-top: 500vh auto 100px; */
+  background-color: rgba(187, 159, 159, 0.5);
+
+  border-radius: 20px;
+  -webkit-box-shadow: 11px 12px 9px -9px rgba(59, 12, 59, 1);
+  -moz-box-shadow: 11px 12px 9px -9px rgba(59, 12, 59, 1);
+  box-shadow: 11px 12px 9px -9px rgba(59, 12, 59, 1);
+}
