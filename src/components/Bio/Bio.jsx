@@ -7,7 +7,7 @@ class Bio extends Component {
   render() {
     return (
       <div className="main">
-        <video
+        {/* <video
           className="video"
           loop="loop"
           muted=""
@@ -16,34 +16,44 @@ class Bio extends Component {
           source
           src="imgs/Background-Animation.mp4"
           type="video/mp4"
-        />
+        /> */}
 
-        <main id="contact">
-          <h1 class="lg-heading">
-            Contact
-            <span class="text-secondary">Me</span>
-          </h1>
-          <h2 class="sm-heading">This is how you can reach me...</h2>
-          <div class="boxes">
-            <div>
-              <span class="text-secondary">Email: </span> yochananh@gmail.com
-            </div>
-            <div>
-              <span class="text-secondary">Phone: </span> (917) 704-6854
-            </div>
-            <div>
-              <span class="text-secondary">Address: </span> Miami Fl.
-            </div>
+        <div class="about-info">
+          <div id="contact">
+            <h3 class="text-secondary">BIO</h3>
+            <p>
+              I identify myself as a problem solver and creator who seeks the
+              opportunity to use any resources or tools to build effective
+              business solution. My objective is to utilize my skills and
+              knowledge to create websites and applications that will be enjoyed
+              by thousands of users. I’m looking forward to being part of
+              talented team that I can contribute to and grow with
+              professionally.
+            </p>
           </div>
-        </main>
 
-        <footer id="main-footer" />
-
-        <div id="mouseposition-extension-element-full-container">
-          <div id="mouseposition-extension-element-rect-display">
-            <pre />
+          <div id="contact">
+            <h3>ironhack</h3>
+            <h6>Teaching Assistant</h6>
+            <p>
+              Assist with classroom instruction and provide support and guidance
+              to students. Implement a classroom system to track student
+              progress, and take steps to ensure academic progress is where it
+              should be. Work closely with the lead teacher to identify issues
+              and develop appropriate solutions.
+            </p>
           </div>
-          <pre id="mouseposition-extension-element-coordinate-display" />
+
+          <div id="contact">
+            <h3>Ritz Carlton </h3>
+            <h6>Executive Sous-Chef</h6>
+            <p>
+              Guarantee high quality, timely and budgetary products. Analyze
+              inventory and budget data to forecast and identifies trends.
+              Oversees quality control for ingredients, finished product and
+              facilities.
+            </p>
+          </div>
         </div>
       </div>
     );

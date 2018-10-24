@@ -22,7 +22,7 @@ class ContactInfo extends Component {
               <span className="text-secondary">Phone: </span> (917) 704-6854
             </div>
             <div>
-              <span className="text-secondary">Address: </span> Miami Fl.
+              <span className="text-secondary">Address: </span> South Florida.
             </div>
           </div>
         </main>

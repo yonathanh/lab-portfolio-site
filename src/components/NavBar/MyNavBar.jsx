@@ -7,7 +7,7 @@ class MyNavBar extends Component {
     return (
       <nav
         className="navbar navbar-expand-lg navbar-light"
-        style={{ backgroundColor: "rgb(58, 41, 48)" }}
+        style={{ backgroundColor: "rgba(58, 41, 48, 0.8)" }}
       >
         <li className="nav-link navbar-brand">
           <Link className="link" to="/">
