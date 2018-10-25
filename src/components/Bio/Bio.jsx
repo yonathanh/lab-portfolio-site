@@ -30,6 +30,12 @@ class Bio extends Component {
               talented team that I can contribute to and grow with
               professionally.
             </p>
+            <a
+              href="https://yonathanh.github.io/COCONUNS-webpage/COCONUNS-webpage/index.html?fbclid=IwAR3QSUUi8LDYAn4WtsU7yeMxATJfYWkARslGgZaQhbMUR6GlrfAHDX9kb_w"
+              target="_blank"
+            >
+              Hackothon Project
+            </a>
           </div>
 
           <div id="contact">

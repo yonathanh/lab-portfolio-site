@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 class Home extends Component {
   state = {};
+
   render() {
     return (
       <div class="container-fluid">
@@ -16,7 +17,7 @@ class Home extends Component {
           <img
             align="left"
             className="fb-image-profile thumbnail"
-            src="https://avatars0.githubusercontent.com/u/25887322?s=460&v=4"
+            src="/imgs/ProfilePicture2018.jpg"
             alt="Profile image"
           />
           <div className="fb-profile-text">
