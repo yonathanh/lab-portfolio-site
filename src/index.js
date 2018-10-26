@@ -6,7 +6,7 @@ import registerServiceWorker from "./registerServiceWorker";
 import { BrowserRouter as Router } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import "jquery/dist/jquery.min.js";
-import "jquery";
+import $ from "jquery";
 
 ReactDOM.render(
   <Router>
