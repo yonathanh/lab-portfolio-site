@@ -30,34 +30,34 @@ class Bio extends Component {
               talented team that I can contribute to and grow with
               professionally.
             </p>
-            <a
-              href="https://yonathanh.github.io/COCONUNS-webpage/COCONUNS-webpage/index.html?fbclid=IwAR3QSUUi8LDYAn4WtsU7yeMxATJfYWkARslGgZaQhbMUR6GlrfAHDX9kb_w"
-              target="_blank"
-            >
-              Hackothon Project
-            </a>
           </div>
 
           <div id="contact">
-            <h3>ironhack</h3>
-            <h6>Teaching Assistant</h6>
+            <h1>Ironhack</h1>
+            <h6>Ironhack Activities and Societies</h6>
             <p>
-              Assist with classroom instruction and provide support and guidance
-              to students. Implement a classroom system to track student
-              progress, and take steps to ensure academic progress is where it
-              should be. Work closely with the lead teacher to identify issues
-              and develop appropriate solutions.
+              Ironhack is an immersive bootcamp with locations in Madrid,
+              Barcelona, and Miami, offering courses in Full Stack Web
+              Development. (400+ hours) - Technologies: JavaScript(ES6), MERN
+              Full Stack Node.JS, Express, React, MongoDB. * Good development
+              practices: Focus on clean code principles, design patterns and
+              test driven development (TDD). Aug 2018 - Oct 2018
             </p>
           </div>
 
           <div id="contact">
-            <h3>Ritz Carlton </h3>
-            <h6>Executive Sous-Chef</h6>
+            <h1>About me</h1>
             <p>
-              Guarantee high quality, timely and budgetary products. Analyze
-              inventory and budget data to forecast and identifies trends.
-              Oversees quality control for ingredients, finished product and
-              facilities.
+              I’m a Jr. Full-Stack Web Developer and experienced Sr. Technical
+              Engineer. I have experience with multiple responsibilities and
+              have brought projects to successful conclusions in a variety of
+              adverse conditions. Responsibilities include demonstrating and
+              executing unique technology (proof of concept), managing the team,
+              continuing with consultation and follow-up. I also have experience
+              integrating various software and hardware technologies by using
+              technical knowledge and programing skills. Specialties:
+              JavaScript, React.js, Express.js, Node.js​, ​MongoDB, Mongoose,
+              HTML/CSS3
             </p>
           </div>
         </div>
