@@ -8,8 +8,9 @@ import Bio from "../Bio/Bio";
 import ContactInfo from "../ContactInfo/ContactInfo";
 
 import "./App.css";
-// import "bootstrap/dist/css/bootstrap.css";
+
 import "bootstrap/dist/js/bootstrap.min.js";
+import "bootstrap/dist/css/bootstrap.css";
 
 class App extends Component {
   render() {
