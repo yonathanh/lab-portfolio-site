@@ -15,16 +15,24 @@ class Projects extends Component {
         </a>
         <div className="row h-50">
           <div className="col-md-4">
-            <img className="dragon" src="/imgs/perfect-shot.png" alt="dragon" />
-          </div>
-          <div className="col-md-4">
-            <img className="dragon" src="/imgs/ilivinamovie.png" alt="dragon" />
+            <img
+              className="project"
+              src="/imgs/perfect-shot.png"
+              alt="project"
+            />
           </div>
           <div className="col-md-4">
             <img
-              className="dragon"
+              className="project"
+              src="/imgs/ilivinamovie.png"
+              alt="project"
+            />
+          </div>
+          <div className="col-md-4">
+            <img
+              className="project"
               src="/imgs/estate-manager.png"
-              alt="dragon"
+              alt="project"
             />
           </div>
         </div>

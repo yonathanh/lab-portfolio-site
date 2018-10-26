@@ -1,20 +1,19 @@
 /* ======================= Global=================== */
 
 #root {
-  /* background-image: url(/imgs/glass.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover; */
-  background-color: #378db4;
-  height: 100vh;
-
   background: url("/imgs/Do-Great-Work-Background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
   background-color: rgb(174, 41, 41);
+}
+
+.App {
+  text-align: center;
 }
 
 h1 {
@@ -51,10 +50,8 @@ h1 {
 }
 
 /* ======================= Header =================== */
-.App {
-  text-align: center;
-}
-.alwaysTop {
+
+/* .alwaysTop {
   position: absolute;
   top: 1px;
   left: 50%;
@@ -72,7 +69,7 @@ h1 {
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 /* ======================= bouncy card =================== */
 .profile-card {
@@ -203,7 +200,7 @@ h1 {
 
 /* =========================== dragon img */
 
-.dragon {
+.project {
   height: 22vh;
   margin: 20px;
   padding: 20px;
