@@ -1,4 +1,4 @@
-/* ======================= Global=================== */
+/* ======================= Global/ App =================== */
 
 #root {
   background: url("/imgs/Do-Great-Work-Background.jpg");
@@ -71,7 +71,132 @@ h1 {
   }
 } */
 
-/* ======================= bouncy card =================== */
+/* ======================= Nav Bar =================== */
+
+/* ======================= Home Page =================== */
+
+/* ===== profile img ===== */
+
+.fb-profile img.fb-image-lg {
+  z-index: 0;
+  width: 100%;
+  height: 40vw;
+  margin-bottom: 10px;
+}
+
+.fb-image-profile {
+  margin: -90px 10px 0px 50px;
+  z-index: 9;
+  width: 10%;
+
+  border-radius: 20px;
+  -webkit-box-shadow: 11px 12px 9px -9px rgba(59, 12, 59, 1);
+  -moz-box-shadow: 11px 12px 9px -9px rgba(59, 12, 59, 1);
+  box-shadow: 11px 12px 9px -9px rgba(59, 12, 59, 1);
+}
+
+@media (max-width: 768px) {
+  .fb-profile-text > h1 {
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .fb-image-profile {
+    margin: -45px 10px 0px 25px;
+    z-index: 9;
+    width: 20%;
+    border-radius: 20px;
+  }
+}
+
+/* //--- gif animation --- */
+.main-wrap {
+  position: relative;
+}
+
+.main-gif {
+  position: absolute;
+  width: 60px;
+  bottom: 30px;
+  left: 43%;
+  animation: gifWalk 15s linear infinite;
+}
+
+@keyframes gifWalk {
+  0% {
+    transform: translateX(0) scaleX(1);
+    opacity: 1;
+  }
+  95% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateX(320px) scaleX(1);
+    opacity: 0;
+  }
+}
+
+@keyframes header {
+  from {
+    color: black;
+    text-shadow: 0 2px 3px green;
+  }
+  to {
+    color: purple;
+    text-shadow: 0 2px 5px red;
+  }
+}
+/* //--- End gif animation ---- */
+
+/* ======================= ContactInfo Page =================== */
+
+.about-info {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: "bioimage bio bio" "job1 job1 job2 ";
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#contact {
+  margin: 10%;
+  padding: 5%;
+
+  /* position: relative;
+  z-index: 1;
+  margin-top: 500vh auto 100px; */
+  background-color: rgba(187, 159, 159, 0.5);
+
+  border-radius: 20px;
+  -webkit-box-shadow: 11px 12px 9px -9px rgba(59, 12, 59, 1);
+  -moz-box-shadow: 11px 12px 9px -9px rgba(59, 12, 59, 1);
+  box-shadow: 11px 12px 9px -9px rgba(59, 12, 59, 1);
+}
+
+/* ======================= Bio Page =================== */
+/* .video {
+  position: none;
+  z-index: -99;
+  width: "100vw";
+  height: "133vh";
+}
+
+#contact {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto 100px;
+} */
+
+/* ======================= Projects Page =================== */
+
+/* ===== project img */
+
+.project {
+  height: 22vh;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* ==== bouncy card ==== */
 .profile-card {
   background: #e61414;
   width: 56px;
@@ -162,126 +287,4 @@ h1 {
     background: #582525;
     border-radius: 4px;
   }
-}
-
-/* ==================== profile img ====================== */
-
-.fb-profile img.fb-image-lg {
-  z-index: 0;
-  width: 100%;
-  height: 40vw;
-  margin-bottom: 10px;
-}
-
-.fb-image-profile {
-  margin: -90px 10px 0px 50px;
-  z-index: 9;
-  width: 10%;
-
-  border-radius: 20px;
-  -webkit-box-shadow: 11px 12px 9px -9px rgba(59, 12, 59, 1);
-  -moz-box-shadow: 11px 12px 9px -9px rgba(59, 12, 59, 1);
-  box-shadow: 11px 12px 9px -9px rgba(59, 12, 59, 1);
-}
-
-@media (max-width: 768px) {
-  .fb-profile-text > h1 {
-    font-weight: 700;
-    font-size: 16px;
-  }
-
-  .fb-image-profile {
-    margin: -45px 10px 0px 25px;
-    z-index: 9;
-    width: 20%;
-    border-radius: 20px;
-  }
-}
-
-/* =========================== dragon img */
-
-.project {
-  height: 22vh;
-  margin: 20px;
-  padding: 20px;
-}
-
-/* =========================== Bio */
-
-/* .video {
-  position: none;
-  z-index: -99;
-  width: "100vw";
-  height: "133vh";
-}
-
-#contact {
-  position: relative;
-  z-index: 1;
-  margin: 0 auto 100px;
-} */
-
-/* //----- gif animation ------- */
-.main-wrap {
-  position: relative;
-}
-
-.main-gif {
-  position: absolute;
-  width: 60px;
-  bottom: 30px;
-  left: 43%;
-  animation: gifWalk 15s linear infinite;
-}
-
-@keyframes gifWalk {
-  0% {
-    transform: translateX(0) scaleX(1);
-    opacity: 1;
-  }
-  95% {
-    opacity: 0.8;
-  }
-  100% {
-    transform: translateX(320px) scaleX(1);
-    opacity: 0;
-  }
-}
-
-@keyframes header {
-  from {
-    color: black;
-    text-shadow: 0 2px 3px green;
-  }
-  to {
-    color: purple;
-    text-shadow: 0 2px 5px red;
-  }
-}
-/* //----- End gif animation ------- */
-
-/* //----- ContactInfo page------- */
-
-#contact {
-  margin: 10%;
-  padding: 5%;
-
-  /* position: relative;
-  z-index: 1;
-  margin-top: 500vh auto 100px; */
-  background-color: rgba(187, 159, 159, 0.5);
-
-  border-radius: 20px;
-  -webkit-box-shadow: 11px 12px 9px -9px rgba(59, 12, 59, 1);
-  -moz-box-shadow: 11px 12px 9px -9px rgba(59, 12, 59, 1);
-  box-shadow: 11px 12px 9px -9px rgba(59, 12, 59, 1);
-}
-
-/* //----- Bio page------- */
-
-.about-info {
-  display: grid;
-  grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio" "job1 job1 job2 ";
-  grid-template-columns: repeat(3, 1fr);
 }
