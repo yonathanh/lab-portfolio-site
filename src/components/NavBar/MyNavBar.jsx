@@ -28,7 +28,7 @@ class MyNavBar extends Component {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
-            <li className="nav-item dropdown">
+            {/* <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
                 id="navbarDropdown"
@@ -52,7 +52,7 @@ class MyNavBar extends Component {
                   How To Reach Me
                 </Link>
               </div>
-            </li>
+            </li> */}
             <li className="nav-item" />
           </ul>
 
@@ -68,7 +68,7 @@ class MyNavBar extends Component {
             </Link>
           </li>
 
-          <li className="nav-item dropdown nav-link navbar-brand">
+          {/* <li className="nav-item dropdown nav-link navbar-brand">
             <a
               className="nav-link dropdown-toggle"
               id="navbarDropdown"
@@ -92,7 +92,7 @@ class MyNavBar extends Component {
                 How To Reach Me
               </Link>
             </div>
-          </li>
+          </li> */}
 
           <li className="nav-link navbar-brand">
             <Link className="link" to="/Projects">
