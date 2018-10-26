@@ -9,6 +9,7 @@ class Projects extends Component {
           className="btn btn-outline-danger btn-sm my-4"
           href="https://yonathanh.github.io/COCONUNS-webpage/COCONUNS-webpage/index.html?fbclid=IwAR3QSUUi8LDYAn4WtsU7yeMxATJfYWkARslGgZaQhbMUR6GlrfAHDX9kb_w"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Hackothon Project
         </a>
@@ -35,10 +36,11 @@ class Projects extends Component {
                 src="/imgs/perfect-shot.png"
                 alt="bounce"
               />
-              <i class="fas fa-eye" />
+              <i className="fas fa-eye" />
               <a
                 href="https://yonathanh.github.io/Grenade-Launcher-game/starter_code/index.html"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Project
               </a>
@@ -47,6 +49,7 @@ class Projects extends Component {
               <a
                 href="https://github.com/yonathanh/Grenade-Launcher-game"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Github
               </a>
@@ -59,8 +62,12 @@ class Projects extends Component {
                 src="/imgs/ilivinamovie.png"
                 alt="bounce"
               />
-              <i class="fas fa-eye" />
-              <a href="http://www.iliveinamovie.com" target="_blank">
+              <i className="fas fa-eye" />
+              <a
+                href="http://www.iliveinamovie.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Project
               </a>
               <br />
@@ -68,6 +75,7 @@ class Projects extends Component {
               <a
                 href="https://github.com/yonathanh/movies-is-my-life"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Github
               </a>
@@ -80,10 +88,11 @@ class Projects extends Component {
                 src="/imgs/estate-manager.png"
                 alt="bounce"
               />
-              <i class="fas fa-eye" />
+              <i className="fas fa-eye" />
               <a
                 href="http://estate-rental-manager.herokuapp.com"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Project
               </a>
@@ -92,6 +101,7 @@ class Projects extends Component {
               <a
                 href="https://github.com/yonathanh/estate-rental-manager"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Github
               </a>

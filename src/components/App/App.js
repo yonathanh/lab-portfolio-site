@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Switch, Route } from "react-router-dom";
+
+import MyNavBar from "../NavBar/MyNavBar";
 import Home from "../Home/Home";
 import Projects from "../Projects/Projects";
 import Bio from "../Bio/Bio";
@@ -8,7 +10,6 @@ import ContactInfo from "../ContactInfo/ContactInfo";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.min.js";
-import MyNavBar from "../NavBar/MyNavBar";
 
 class App extends Component {
   render() {

@@ -21,12 +21,17 @@ class ContactInfo extends Component {
             <div>
               <span className="text-secondary">Address: </span> South Florida.
             </div>
-            <a href="https://github.com/yonathanh" target="_blank">
+            <a
+              href="https://github.com/yonathanh"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fab fa-github fa-2x" />
             </a>
             <a
               href="https://www.linkedin.com/in/yonatan-harris"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <i className="fab fa-linkedin fa-2x" />
             </a>
