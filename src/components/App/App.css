@@ -73,6 +73,30 @@ h1 {
 
 /* ======================= Nav Bar =================== */
 
+nav {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(58, 41, 48, 0.2),
+    rgba(58, 41, 48, 0.5),
+    rgba(83, 47, 83, 0.2)
+  );
+  border-radius: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 0 5px 15px black;
+
+  /* height: 50px; */
+  margin: 0.2%;
+}
+
+#navbarDropdown {
+  color: rgb(40, 151, 179);
+}
+#navbarDropdown:hover {
+  color: rgb(128, 243, 247);
+  cursor: progress;
+}
+
 /* ======================= Home Page =================== */
 
 /* ===== profile img ===== */
