@@ -33,19 +33,6 @@ class Bio extends Component {
           </div>
 
           <div id="contact">
-            <h1>Ironhack</h1>
-            <h6>Ironhack Activities and Societies</h6>
-            <p>
-              Ironhack is an immersive bootcamp with locations in Madrid,
-              Barcelona, and Miami, offering courses in Full Stack Web
-              Development. (400+ hours) - Technologies: JavaScript(ES6), MERN
-              Full Stack Node.JS, Express, React, MongoDB. * Good development
-              practices: Focus on clean code principles, design patterns and
-              test driven development (TDD). Aug 2018 - Oct 2018
-            </p>
-          </div>
-
-          <div id="contact">
             <h1>About me</h1>
             <p>
               I’m a Jr. Full-Stack Web Developer and experienced Sr. Technical
@@ -58,6 +45,19 @@ class Bio extends Component {
               technical knowledge and programing skills. Specialties:
               JavaScript, React.js, Express.js, Node.js​, ​MongoDB, Mongoose,
               HTML/CSS3
+            </p>
+          </div>
+
+          <div id="contact">
+            <h1>Ironhack</h1>
+            <h6>Graduated among the top of the class</h6>
+            <p>
+              Ironhack is an immersive bootcamp with locations in Madrid,
+              Barcelona, and Miami, offering courses in Full Stack Web
+              Development. (400+ hours) - Technologies: JavaScript(ES6), MERN
+              Full Stack Node.JS, Express, React, MongoDB. * Good development
+              practices: Focus on clean code principles, design patterns and
+              test driven development (TDD). Aug 2018 - Oct 2018
             </p>
           </div>
         </div>

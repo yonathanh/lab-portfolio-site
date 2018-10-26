@@ -8,10 +8,7 @@ class ContactInfo extends Component {
     return (
       <div className="main">
         <main id="contact">
-          <h1 className="lg-heading">
-            Contact
-            <span className="text-secondary">Me</span>
-          </h1>
+          <h1 className="lg-heading">Contact Me</h1>
           <h2 class="sm-heading">This is how you can reach me...</h2>
           <div class="boxes">
             <div>
@@ -24,6 +21,15 @@ class ContactInfo extends Component {
             <div>
               <span className="text-secondary">Address: </span> South Florida.
             </div>
+            <a href="https://github.com/yonathanh" target="_blank">
+              <i className="fab fa-github fa-2x" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/yonatan-harris"
+              target="_blank"
+            >
+              <i className="fab fa-linkedin fa-2x" />
+            </a>
           </div>
         </main>
 

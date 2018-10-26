@@ -6,6 +6,7 @@ class Projects extends Component {
     return (
       <div className="container">
         <a
+          className="btn btn-outline-danger btn-sm my-4"
           href="https://yonathanh.github.io/COCONUNS-webpage/COCONUNS-webpage/index.html?fbclid=IwAR3QSUUi8LDYAn4WtsU7yeMxATJfYWkARslGgZaQhbMUR6GlrfAHDX9kb_w"
           target="_blank"
         >
