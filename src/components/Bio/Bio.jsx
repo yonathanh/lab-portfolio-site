@@ -18,9 +18,9 @@ class Bio extends Component {
           type="video/mp4"
         /> */}
 
-        <div class="about-info">
+        <div className="about-info">
           <div id="contact">
-            <h3 class="text-secondary">BIO</h3>
+            <h3 className="text-secondary">BIO</h3>
             <p>
               I identify myself as a problem solver and creator who seeks the
               opportunity to use any resources or tools to build effective

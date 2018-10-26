@@ -9,8 +9,8 @@ class ContactInfo extends Component {
       <div className="main">
         <main id="contact">
           <h1 className="lg-heading">Contact Me</h1>
-          <h2 class="sm-heading">This is how you can reach me...</h2>
-          <div class="boxes">
+          <h2 className="sm-heading">This is how you can reach me...</h2>
+          <div className="boxes">
             <div>
               <span className="text-secondary">Email: </span>{" "}
               yochananh@gmail.com
