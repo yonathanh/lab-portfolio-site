@@ -26,6 +26,11 @@ h1 {
   animation: header 5s ease-in infinite alternate;
 }
 
+p {
+  font-family: "Courier New", Arial, sans-serif;
+  color: white;
+}
+
 .link,
 #navbarDropdown {
   color: #4294b4;
