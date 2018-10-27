@@ -30,10 +30,15 @@ class Bio extends Component {
               talented team that I can contribute to and grow with
               professionally.
             </p>
+            <br />
+            <p>
+              Specialties: JavaScript, React.js, Express.js, Node.js​, ​MongoDB,
+              Mongoose, HTML/CSS3
+            </p>
           </div>
 
           <div id="contact">
-            <h1>About me</h1>
+            <h1>Jonathan</h1>
             <p>
               I’m a Jr. Full-Stack Web Developer and experienced Sr. Technical
               Engineer. I have experience with multiple responsibilities and
@@ -42,9 +47,7 @@ class Bio extends Component {
               executing unique technology (proof of concept), managing the team,
               continuing with consultation and follow-up. I also have experience
               integrating various software and hardware technologies by using
-              technical knowledge and programing skills. Specialties:
-              JavaScript, React.js, Express.js, Node.js​, ​MongoDB, Mongoose,
-              HTML/CSS3
+              technical knowledge and programing skills.
             </p>
           </div>
 
