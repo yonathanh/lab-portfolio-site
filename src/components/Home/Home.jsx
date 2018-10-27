@@ -17,7 +17,7 @@ class Home extends Component {
           <img
             align="left"
             className="fb-image-profile thumbnail"
-            src="/imgs/ProfilePicture2018.jpg"
+            src="/imgs/ProfilePicture1.jpg"
             alt="ProfilePic"
           />
           <div className="fb-profile-text">
