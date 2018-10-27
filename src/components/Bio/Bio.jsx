@@ -53,7 +53,7 @@ class Bio extends Component {
 
           <div id="contact">
             <h1>Ironhack</h1>
-            <h6>Graduated among the top of the class</h6>
+            <p>Graduated among the top of the class</p>
             <p>
               Ironhack is an immersive bootcamp with locations in Madrid,
               Barcelona, and Miami, offering courses in Full Stack Web
