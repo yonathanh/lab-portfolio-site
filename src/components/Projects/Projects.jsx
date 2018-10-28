@@ -2,6 +2,9 @@ import React, { Component } from "react";
 
 class Projects extends Component {
   state = {};
+  showAlert() {
+    alert("Im an alert");
+  }
   render() {
     return (
       <div className="container">
@@ -15,25 +18,31 @@ class Projects extends Component {
         </a>
         <div className="row h-50">
           <div className="col-md-4">
-            <img
-              className="project"
-              src="/imgs/perfect-shot.png"
-              alt="project"
-            />
+            <button onClick={this.showAlert} className="project-info">
+              <img
+                className="project"
+                src="/imgs/perfect-shot.png"
+                alt="project"
+              />
+            </button>
           </div>
           <div className="col-md-4">
-            <img
-              className="project"
-              src="/imgs/ilivinamovie.png"
-              alt="project"
-            />
+            <button onClick={this.showAlert} className="project-info">
+              <img
+                className="project"
+                src="/imgs/ilivinamovie.png"
+                alt="project"
+              />
+            </button>
           </div>
           <div className="col-md-4">
-            <img
-              className="project"
-              src="/imgs/estate-manager.png"
-              alt="project"
-            />
+            <button onClick={this.showAlert} className="project-info">
+              <img
+                className="project"
+                src="/imgs/estate-manager.png"
+                alt="project"
+              />
+            </button>
           </div>
         </div>
         <div className="row">
