@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class Projects extends Component {
   state = {};
-  showAlert() {
+  showInfo() {
     alert("Im an alert");
   }
   render() {
@@ -16,9 +16,10 @@ class Projects extends Component {
         >
           Hackothon Project
         </a>
+
         <div className="row h-50">
           <div className="col-md-4">
-            <button onClick={this.showAlert} className="project-info">
+            <button onClick={this.showInfo} className="project-info">
               <img
                 className="project"
                 src="/imgs/perfect-shot.png"
@@ -27,7 +28,7 @@ class Projects extends Component {
             </button>
           </div>
           <div className="col-md-4">
-            <button onClick={this.showAlert} className="project-info">
+            <button onClick={this.showInfo} className="project-info">
               <img
                 className="project"
                 src="/imgs/ilivinamovie.png"
@@ -36,7 +37,7 @@ class Projects extends Component {
             </button>
           </div>
           <div className="col-md-4">
-            <button onClick={this.showAlert} className="project-info">
+            <button onClick={this.showInfo} className="project-info">
               <img
                 className="project"
                 src="/imgs/estate-manager.png"
