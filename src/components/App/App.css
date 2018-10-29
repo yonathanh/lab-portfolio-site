@@ -235,6 +235,11 @@ nav {
   outline: inherit;
 }
 
+.click {
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
 /* ==== bouncy card ==== */
 .profile-card {
   background: #e61414;

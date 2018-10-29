@@ -31,31 +31,39 @@ class Projects extends Component {
 
         <div className="row h-50">
           <div className="col-md-4">
+            <h1>click for info</h1>
             <button onClick={this.showInfoPerfectShot} className="project-info">
+              <span className="click">click</span>
               <img
                 className="project"
                 src="/imgs/perfect-shot.png"
                 alt="project"
               />
+              <span className="click">click</span>
             </button>
           </div>
           <div className="col-md-4">
+            <h1>click for info</h1>
             <button
               onClick={this.showInfoIlivInAmovie}
               className="project-info"
             >
+              <span className="click">click</span>
               <img
                 className="project"
                 src="/imgs/ilivinamovie.png"
                 alt="project"
               />
+              <span className="click">click</span>
             </button>
           </div>
           <div className="col-md-4">
+            <h1>click for info</h1>
             <button
               onClick={this.showInfoEstateManager}
               className="project-info"
             >
+              <span className="click">click</span>
               <img
                 className="project"
                 src="/imgs/estate-manager.png"
