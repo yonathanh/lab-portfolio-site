@@ -2,8 +2,20 @@ import React, { Component } from "react";
 
 class Projects extends Component {
   state = {};
-  showInfo() {
-    alert("Im an alert");
+  showInfoPerfectShot() {
+    alert(
+      "This game was created for my first project assignment while studying at Ironhack. I used HTML, CSS, Canvas and JavaScript to create this game. Everything was implemented using native tools without libraries."
+    );
+  }
+  showInfoIlivInAmovie() {
+    alert(
+      "This Web App was created for my Second Module CRUD project while studying at Ironhack. I used Node.js, MongoDB, Express, Mongoose, JavaScript and (HTML/CSS3/SCSS/Bootstrap) to create this app. and deployed using Heroku."
+    );
+  }
+  showInfoEstateManager() {
+    alert(
+      "A React.js based Web App created for my Final Module putting all what I studied together focusing on React.js and Node.js. Technologies Used: React.js Node.js, MongoDB, Express.js, Mongoose, JavaScript, Heroku and (HTML/CSS3/Bootstrap)"
+    );
   }
   render() {
     return (
@@ -19,7 +31,7 @@ class Projects extends Component {
 
         <div className="row h-50">
           <div className="col-md-4">
-            <button onClick={this.showInfo} className="project-info">
+            <button onClick={this.showInfoPerfectShot} className="project-info">
               <img
                 className="project"
                 src="/imgs/perfect-shot.png"
@@ -28,7 +40,10 @@ class Projects extends Component {
             </button>
           </div>
           <div className="col-md-4">
-            <button onClick={this.showInfo} className="project-info">
+            <button
+              onClick={this.showInfoIlivInAmovie}
+              className="project-info"
+            >
               <img
                 className="project"
                 src="/imgs/ilivinamovie.png"
@@ -37,7 +52,10 @@ class Projects extends Component {
             </button>
           </div>
           <div className="col-md-4">
-            <button onClick={this.showInfo} className="project-info">
+            <button
+              onClick={this.showInfoEstateManager}
+              className="project-info"
+            >
               <img
                 className="project"
                 src="/imgs/estate-manager.png"
