@@ -39,6 +39,16 @@ class ContactInfo extends Component {
         </main>
 
         <footer id="main-footer" />
+
+        <div
+          id="mouseposition-extension-element-full-container"
+          //style="position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; pointer-events: none; z-index: 2147483647; font-weight: 400;"
+        >
+          <pre
+            id="mouseposition-extension-element-coordinate-display"
+            // style="position: absolute; display: none; background: rgb(255, 255, 255); font-size: 12px; line-height: 14px; border-radius: 3px; border-width: 1px; border-color: rgb(34, 34, 34) black rgb(51, 51, 51); border-style: solid; padding: 3px; z-index: 2147483647; color: rgb(34, 34, 34); user-select: none; cursor: default; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;"
+          />
+        </div>
       </div>
     );
   }
